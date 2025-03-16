@@ -10,7 +10,7 @@ class DemoApplicationTests {
 	public static Logger logger = Logger.getLogger(DemoApplicationTests.class.getName());
 		@Test
 
-		 contextLoads() {
+		void contextLoads() {
 			assert(true);
 			logger.info("Test case executing");
 		}
