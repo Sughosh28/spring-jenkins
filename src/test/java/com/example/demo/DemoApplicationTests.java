@@ -13,6 +13,7 @@ class DemoApplicationTests {
 		void contextLoads() {
 			assert(true);
 			logger.info("Test case executing");
+			logger.info("Test case executeddddddd");
 		}
 
 
